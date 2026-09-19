@@ -1,0 +1,14 @@
+{
+  "name": "postpilot-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PostPilot AI - local-first social media SaaS starter powered by Ollama",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
